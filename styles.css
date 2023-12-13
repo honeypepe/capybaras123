@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/borsok");
+@import url(https://db.onlinewebfonts.com/c/7f8d733df30d1a25b22b03523640f538?family=Gungsuh+W33+Regular);
+@import url("https://fonts.cdnfonts.com/css/proxima-nova-condensed");
+
+body {
+  background-color: #e3e3e3;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Proxima Nova Condensed", sans-serif;
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.container {
+  background-color: #e3e3e3;
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 20px;
+  display: block;
+}
+
+.spacebetween {
+  padding: 10 0px;
+  width: fit-content;
+}
+.emptyspace ul {
+  display: flex;
+  padding: 10px;
+}
+.emptyspace li {
+  margin-left: 10px;
+}
+.mainmain {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.mainspace {
+  background-color: white;
+  width: 75%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px gray;
+}
+
+.leftspace {
+  background-color: white;
+  width: 25%;
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0px 0px 15px gray;
+}
+.leftspace h2 {
+  text-align: left;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.productmenu {
+  display: block;
+  background-color: #ffffff;
+  line-height: 30px;
+  padding: 0px;
+}
+.productmenu a {
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+}
+.productmenu ul {
+  padding: 0px;
+}
+
+.productmenumarker li {
+  list-style: square;
+}
+.boardtext {
+  background-color: #f7a054;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.pict {
+  background: #f7a054;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  border: none;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.pict td {
+  background-color: white;
+  margin: auto;
+  border: none;
+  padding: 10px;
+}
+.pict p {
+  width: fit-content;
+  margin: auto;
+  line-height: 5px;
+}
+.pict img {
+  margin-bottom: 5px;
+}
+
+.connectblock {
+  background-color: #f7a054;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+  display: flex;
+  position: relative;
+}
+
+.connect h2 {
+  text-align: center;
+}
+.connect input {
+  background-color: wheat;
+  width: 50%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.connectpace {
+  padding: 10px;
+  width: 60%;
+}
+.connectimage img {
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  background-color: wheat;
+  border: none;
+  border-radius: 10px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.btn :hover {
+  font-family: inherit;
+  opacity: 0.9;
+}
+
+.top {
+  padding-top: 10px;
+}
+.top label {
+  font-family: inherit;
+}
+.top input {
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  font-family: inherit;
+  outline: none;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.box {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 0px;
+  left: 0px;
+  background-color: #2d2d2a;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.position {
+  position: relative;
+  background-color: #ff954e;
+  height: 100px;
+  padding: 10px;
+  top: 0;
+  left: 0px;
+}
+.logobox {
+  display: flex;
+}
+.logo {
+  position: relative;
+  background-color: transparent;
+  padding: 10px;
+}
+.logo img {
+  width: 125px;
+  background-color: #2d2d2a;
+  border: white 5px solid;
+  border-radius: 10px;
+  margin: 10px;
+  right: 180px;
+}
+.logotext {
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: #f7a054;
+  border: #f7a054 solid 10px;
+}
+h1 {
+  margin: 0;
+}
+
+.socials {
+  color: white;
+  font-size: 16px;
+  background-color: #2d2d2a;
+  display: flex;
+  padding-top: 15px;
+}
+
+.socials a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-style: bold;
+}
+
+.socials ul {
+  display: flex;
+  padding-left: 5px;
+}
+a {
+  transition: 0.1s ease-in-out;
+}
+a:hover {
+  color: #fb990d;
+}
+
+.flexcont {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  max-width: 950px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flexcont > div {
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0);
+}
+
+.flexcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  height: 350px;
+  border: #e3e3e3 solid 3px;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.2s ease;
+}
+.flexcard button {
+  background: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+.flexcard button:hover {
+  cursor: pointer;
+  background-color: #f7a054;
+  transition: 0.2s ease-in-out;
+}
+
+hr {
+  width: 150px;
+  background-color: black;
+}
+
+.flexcard:hover {
+  transform: translate(0px, -10px);
+  box-shadow: 0px 5px 15px gray;
+}
+.cardp {
+  display: flex;
+  justify-content: center;
+}
+.cardtext {
+  text-align: center;
+}
+
+.cardtext a {
+  color: black;
+  text-decoration: none;
+}
+
+.cardtext a:hover {
+  color: #fb990d;
+  transition: color 0.2s ease-in, border-color 0.2s ease-in;
+}
+
+.fc {
+  font-size: 14px;
+}
